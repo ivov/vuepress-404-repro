@@ -10,6 +10,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "go": "npm run build && npm run serve",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "serve": "cd docs/.vuepress/dist && anywhere -h localhost"
