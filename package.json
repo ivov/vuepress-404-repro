@@ -1,0 +1,29 @@
+{
+  "name": "n8n-docs",
+  "version": "0.0.1",
+  "description": "n8n Documentation",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://n8n.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8n-io/n8n-docs.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "cd docs/.vuepress/dist && anywhere -h localhost"
+  },
+  "author": "",
+  "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.5.0",
+    "directory-tree": "^2.2.4",
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-reading-time": "^0.1.1",
+    "vuepress-plugin-seo": "^0.1.4"
+  }
+}
