@@ -15,3 +15,5 @@ npm run serve
 3. Click on the `Nodes` link on the top-right corner
 4. Middle-click on the `Nodes Library` link → fails
 5. Middle-click on the `Credential` link → fails
+
+abc
